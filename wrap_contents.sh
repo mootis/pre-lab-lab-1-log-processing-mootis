@@ -1,6 +1,7 @@
 #!/bin/bash
-# echo "Welcome"
-# ls
-# echo "This completes the list of directories"
 
-cat $1
+middle: $1
+header_footer: $2
+target: $3
+
+cat $2_header.html $1 $2_footer.html > $3
