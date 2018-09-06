@@ -1,0 +1,8 @@
+#1
+ (\w+), (\w+)
+
+#2
+ I am (\w+). My favorite sandwich is (\w+)
+
+#3
+ sandwich with (\S+) (.*)
